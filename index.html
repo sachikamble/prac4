@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h2>User Registration Form</h2>
+
+    <form onsubmit="return validateForm()">
+        User Name:
+        <input type="text" id="uname"><br><br>
+
+        Address:
+        <textarea id="address"></textarea><br><br>
+
+        Date of Birth:
+        <input type="date" id="dob"><br><br>
+
+        Email ID:
+        <input type="text" id="email"><br><br>
+
+        PAN Number:
+        <input type="text" id="pan" placeholder="ABCDE1234F"><br><br>
+
+        Aadhaar Number:
+        <input type="text" id="aadhar"><br><br>
+
+        Education:
+        <select id="education">
+            <option value="">--Select--</option>
+            <option>SSC</option>
+            <option>HSC</option>
+            <option>Graduate</option>
+            <option>Post Graduate</option>
+        </select><br><br>
+
+        Contact Number:
+        <input type="text" id="contact"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
